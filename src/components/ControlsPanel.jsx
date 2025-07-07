@@ -1,7 +1,14 @@
 import React from 'react';
 import { planetData } from '../data/planetData';
 
-export default function ControlsPanel({ speeds, setSpeeds, isPaused, setIsPaused}) {
+export default function ControlsPanel({ 
+  speeds, 
+  setSpeeds, 
+  isPaused, 
+  setIsPaused, 
+  isDark, 
+  setIsDark 
+}) {
   const handleSpeedChange = (name, value) => {
     setSpeeds(prev => ({ ...prev, [name]: parseFloat(value) }));
   };
@@ -23,7 +30,10 @@ export default function ControlsPanel({ speeds, setSpeeds, isPaused, setIsPaused
         </div>
       ))}
       <button onClick={() => setIsPaused(!isPaused)}>
-        {isPaused ? 'Resume' : 'Restart'}
+        {isPaused ? 'Resume' : 'Pause'}
+      </button>
+      <button onClick={() => setIsDark(!isDark)}>
+        {isDark ? 'Light' : 'Dark'}
       </button>
     </div>
   );
