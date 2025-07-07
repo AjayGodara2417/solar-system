@@ -19,12 +19,12 @@
 
 
 ## 🚀 **Live Demo**
-*([Solar System](https://solar-system-bice-seven.vercel.app/))*
+*[Solar System](https://solar-system-bice-seven.vercel.app/)*
 
 
 ## 📽 **Demo Video**
 
-*(Attach your screen recording here)*
+*[Watch Video here](https://drive.google.com/file/d/1hYMlAlXUkVM5FqGUXawy4bQiFDOXc8ng/view?usp=sharing)*
 
 
 ## 🛠 **Tech Stack**
