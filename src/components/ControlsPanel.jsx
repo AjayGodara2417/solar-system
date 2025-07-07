@@ -23,7 +23,7 @@ export default function ControlsPanel({ speeds, setSpeeds, isPaused, setIsPaused
         </div>
       ))}
       <button onClick={() => setIsPaused(!isPaused)}>
-        {isPaused ? 'Resume' : 'Pause'}
+        {isPaused ? 'Resume' : 'Restart'}
       </button>
     </div>
   );
